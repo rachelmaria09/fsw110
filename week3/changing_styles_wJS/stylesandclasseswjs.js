@@ -11,4 +11,11 @@ for (let i = 0; i < 5; i++) {
     console.log('assignment two');
 }
 
-document.getElementById("#heading").classList.add("border");
+function borderCss() {
+    document.getElementById("heading").classList.add("border");
+}
+
+borderCss();
+console.log(document.getElementById("heading").className);
+
+
