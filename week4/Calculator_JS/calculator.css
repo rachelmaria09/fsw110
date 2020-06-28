@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.title {
+    text-align: center;
+    color: blue;
+}
+.calculator {
+    width: 400px;
+    height: 520px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+#add1 {
+    margin: 20px;
+}
+#subtract1 {
+    margin: 20px;
+}
+#times1 {
+    margin: 20px;
+}
+input {
+    font-size: medium;
+}
+button {
+    background-color: black;
+    color: gainsboro;
+    font-size: 18px;
+    margin: 10px;
+}
+
