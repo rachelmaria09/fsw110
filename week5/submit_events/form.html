@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rachel's Airline</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body id="container">
+        <img id="image" src="https://images.unsplash.com/photo-1549106765-3d312a9425e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80">
+        <div id="content">
+        <h2 id="heading">Welcome to Rachel's Airline!</h2>
+        <h4 id="text">Please complete the below fields so we can book your flight.</h4>
+        <form id="form1" name="form1">
+            <label>First name: </label><input type="text" id="fname" name="fname"><br><br>
+            <label>Last name: </label><input type="text" id="lname" name="lname"><br><br>
+            <label>Age: </label><input type="number" id="age" name="age"><br><br>
+            <label>Gender: </label><input type="radio" id="gender" name="gender" value="male">Male</input>
+                                   <input type="radio" id="gender" name="gender" value="female">Female</input><br><br>
+            <label>Destination: </label><select id="dest" name="dest">
+                <option value="Aruba">Aruba</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Jamaica">Jamaica</option>
+            </select><br><br>
+            <label>Dietary restrictions: </label><br><br>
+            Vegetarian <input type="checkbox" id="diet" name="diet" value="vegetarian"/><br><br>
+            Kosher <input type="checkbox" id="diet" name="diet" value="kosher"/><br><br>
+            Lactose free <input type="checkbox" id="diet" name="diet" value="lactosefree"/><br><br>
+            <input id="btn" type="button" onclick="myFunction()" value="Submit">
+        </form>
+        <h4>Have a great trip and thank you for traveling with us!</h4>
+        </div>
+        <script src="form.js"></script>
+    </body>
+</html>
