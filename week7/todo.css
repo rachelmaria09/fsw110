@@ -1,0 +1,41 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    background-color: lightgray;
+}
+#title {
+    margin: 20px;
+    color: darkslategray;
+}
+#todo {
+    color: firebrick;
+    font-size: x-large;
+}
+#new-task {
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+#new-task1 {
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+#add-task-btn {
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color:darkslategray;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+}
+#list {
+    list-style: none;
+}
