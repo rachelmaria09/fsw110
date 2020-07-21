@@ -6,16 +6,12 @@ function removeItem() {
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
+    let item = document.createElement('li');
+
     for(i=0; i < form.length - 1; i++) {
     //adds items
-    let item = document.createElement('li');
-    item.textContent = `${form[i].value}`;
-    //remove items
-    /*let input = document.createElement("input");
-    input.type = "button";
-    input.value = "Done";
-    input.onclick = removeItem;
-    item.appendChild(input);*/
+    item.textContent = `${item.textContent} || ${form[i].value}`;
+
     document.getElementsByTagName("ul")[0].append(item);
     }
 
@@ -24,8 +20,7 @@ form.addEventListener("submit", (event) => {
     input.type = "button";
     input.value = "Done";
     input.onclick = removeItem;
-
-
+    input.style.display = "block";
     document.getElementsByTagName("li")[0].append[input];
 
     form.reset();

@@ -1,11 +1,12 @@
 body {
     font-family: 'Mulish', sans-serif;
     text-align: center;
-    background-color: lightgray;
+    background-color: black;
+    color: white;
 }
 #title {
     margin: 20px;
-    color: darkslategray;
+    color:white;
 }
 #todo {
     color: firebrick;
@@ -38,4 +39,13 @@ body {
 }
 #list {
     list-style: none;
+}
+input {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+    color: darkslategray;
+    text-align: center;
 }
